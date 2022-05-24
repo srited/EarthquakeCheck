@@ -29,6 +29,13 @@ O/P:
 ![image (1)](https://user-images.githubusercontent.com/38064581/170002933-9ff0c780-6a76-4c22-a78d-75033083ab07.png)
 
 
+Future Enhancements :
+- > To add the maps in the same application.
+- > To add an alert system through mail and notification if the earthquake is severe.
+- > To create a customhook (that is halfway done) to have only the API call so that can be scaled in future.
+- > To show a tile of each earthquake with some more information when clicked on it.
+- > To write unit test cases.
+
 Note :
 Please install the nodemodules using npm install and dependecies for materialUI,Marquee,axios.
 
