@@ -4,8 +4,13 @@
     "\\public",
     "\\src",
     "\\src\\solutions",
-    "\\src\\tests"
+    "\\src\\tests",
+    "\\src\\tests\\__fixtures__",
+    "\\src\\tests\\__snapshots__",
+    "\\src\\Visualisation",
+    "\\src\\Visualisation\\static",
+    "\\src\\Visualisation\\static\\js"
   ],
-  "SelectedNode": "\\package.json",
+  "SelectedNode": "\\src\\solutions\\Menu.js",
   "PreviewInSolutionExplorer": false
 }

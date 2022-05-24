@@ -22,7 +22,6 @@ var map = L.map("map", {
 graymap_background.addTo(map);
 
 // layers for two different sets of data, earthquakes and tectonicplates.
-var tectonicplates = new L.LayerGroup();
 var earthquakes = new L.LayerGroup();
 
 // base layers
@@ -45,6 +44,8 @@ L
   .addTo(map);
 
 // retrieve earthquake geoJSON data.
+//d3 fetch
+//If server returns 204/205(no content) ,promise resolves to undefined.
 d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson", function(data) {
 
 

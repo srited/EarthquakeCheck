@@ -15,7 +15,7 @@ const bluetext = "bluetext";
 const orangetext = "orangetext";
  
 
-
+//GridData Column Definition
 const columns = [
    
     { field: 'place', headerName: 'Place', width: 300, headerClassName: 'headerstyle',headerAlign: 'center',},
